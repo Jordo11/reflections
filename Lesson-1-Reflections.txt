@@ -1,0 +1,62 @@
+How did viewing a diff between two versions of a file help you see the bug that 
+was introduced?
+
+1) Viewing the different versions of the same file allowed me to quickly find the 
+error in the code.
+
+2) By only showing the problem areas of the code, it didn't take nearly as long as 
+browsing the entire file.
+
+How could having easy access to the entire history of a file make you a more 
+efficient programmer in the long term?
+
+1) You will save lots of time when you encounter bugs and need to know where your
+code went wrong.
+
+2) If you removed a feature that you want back, you wouldn't need to rewrite it
+in its entirety. It would be possible to return to an old version and see
+exactly how you implemented this feature in the past.
+
+What do you think are the pros and cons of manually choosing when to create a 
+commit, like you do in Git, vs having versions automatically saved, 
+like Google Docs does?
+
+1) Being able to manually commit changes gives you far better control over when
+you want to and should commit. 
+
+2) Automatically saving changes in your files could lead to confusion when trying
+to bug fix them later.
+
+3) One advantage of automatic saving over manual would be that there is no risk
+of forgetting to save. 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file seperately?
+
+1) Saving multiple files in one commit makes it easier to keep all of your files
+from a project together so you can browse over them all at once.
+
+2) Google Docs may save each file seperately to avoid confusion during comparison.
+
+How can you use the commands git log and git diff to view the history of files?
+
+1) You can use git log to see a full log of every commit you have and a code
+to identify them, as well as who made the commit, and what time it was commited.
+
+2) git log --stat will show not only the log messages, but also how many items
+were added or deleted.
+
+3) git diff first_id second_id will use the commit log codes to compare two
+commits and show you what code was changed or added.
+
+How might using version control make you more confident to make changes that 
+could break something?
+
+1) If you know a previous version of your program is only a few button 
+presses away, you can have the confidence of knowing that any bugs you introduce
+can be quickly reverted. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+1)I am mainly learning Git for future projects than are going to be larger than
+what I am currently attempting so I can have a failsafe when I break code.
