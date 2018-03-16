@@ -1,0 +1,15 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+1) Intializing a repository lets Git know where you would like to store the 
+commits and commit related files
+
+2) You need to initialize a repository or Git will not know which files you
+would like to use its commands on
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+1) The staging area allows one more layer of confirmation before commiting your file to the repository
+
+2) The staging area is in between the repository and the working directory, and
+any files you put there will not be moved to the repository until you commit them.
+
