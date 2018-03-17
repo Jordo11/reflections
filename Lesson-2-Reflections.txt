@@ -13,3 +13,7 @@ How is the staging area different from the working directory and the repository?
 2) The staging area is in between the repository and the working directory, and
 any files you put there will not be moved to the repository until you commit them.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+1) You can compare the staged version of your file, or files, to the last commit
+and make sure you are not adding too much or too little at a time.
