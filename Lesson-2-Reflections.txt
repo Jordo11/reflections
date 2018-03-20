@@ -17,3 +17,41 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 1) You can compare the staged version of your file, or files, to the last commit
 and make sure you are not adding too much or too little at a time.
+
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+
+1) Adding a new branch would help if you want to add an experimental feature
+to your project that you do not want in the master version before further testing.
+
+2) A new branch could also be used for another version of the game.
+
+3) Branches are helpful when you do not want to overwrite the master files.
+
+How do the diagrams help you visualize the branch structure?
+
+1) Diagrams allow you to see exactly where each branch goes and where it 
+came from.
+
+2) Branches help you visual the concept of having parent commits.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+1) When you merge a branch, whichever branch you currently have checked out will
+be the branch that the changes are commited to
+
+2) After merging branches the commits from each branch get put in order by 
+timestamps
+
+3) The diagram has arrows pointed to each branch that the new merged branch
+came from, and those become parent branches of the new branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+1) Pro: Automatic merging can save you a lot of time by not having to look over 
+every line of the merged files
+
+2) Con: If there are not merge conflicts, but there is an error in your code
+that you did not previously see, it will still be commited.
+
+
