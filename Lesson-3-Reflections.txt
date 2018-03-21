@@ -15,3 +15,18 @@ until you are ready for them
 
 2) Git pulling changes automatically may pull changes that you did not want in
 your local version
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+1) Forks are good if you would like to clone the remote repository as well as
+push changes to it but you do not have access to change the original repo.
+
+2) Cloning is useful for when you do not need use the remote repository but still
+get it onto your local machine. 
+
+3) If you have made a local repository and plan to keep it local, you can use
+branches to store experimental versions of your files seperate from master.
+
+4) When a repository is forked onto your account it becomes your repository and
+any changes made to it do not affect the original. A fork also credits the 
+original creator of the repository.
